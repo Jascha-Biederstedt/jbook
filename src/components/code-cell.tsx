@@ -4,7 +4,6 @@ import CodeEditor from './code-editor';
 import Preview from './preview';
 import { bundle } from '../bundler';
 import Resizable from './resizable';
-import { ResizableBox } from 'react-resizable';
 
 const CodeCell = () => {
   const [input, setInput] = useState('');
